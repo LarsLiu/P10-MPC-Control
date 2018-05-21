@@ -1,0 +1,1 @@
+            -L/home/lars/Ipopt-3.12.7/build/lib -L/home/lars/Ipopt-3.12.7/build/lib -L/home/lars/Ipopt-3.12.7/build/lib -lipopt -ldl -lcoinmumps -lcoinmetis -lcoinlapack -lcoinblas             -lstdc++ -lm

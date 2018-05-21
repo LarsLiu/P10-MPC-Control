@@ -1,0 +1,1 @@
+/home/lars/Ipopt-3.12.7/Ipopt/tutorial/Modeling/bad1-fix2.mod

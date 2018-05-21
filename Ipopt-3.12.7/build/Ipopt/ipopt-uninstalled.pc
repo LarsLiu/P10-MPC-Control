@@ -1,0 +1,10 @@
+prefix=/home/lars/Ipopt-3.12.7/build
+libdir=/home/lars/Ipopt-3.12.7/build/Ipopt/src/Interfaces
+
+Name: IPOPT
+Description: Interior Point Optimizer
+URL: https://projects.coin-or.org/Ipopt
+Version: 3.12.7
+Libs: ${libdir}/libipopt.la -lm  -ldl
+Cflags: -I/home/lars/Ipopt-3.12.7/Ipopt/src/Interfaces -I/home/lars/Ipopt-3.12.7/Ipopt/src/Common -I/home/lars/Ipopt-3.12.7/Ipopt/src/LinAlg -I/home/lars/Ipopt-3.12.7/Ipopt/src/Algorithm -I/home/lars/Ipopt-3.12.7/Ipopt/src/contrib/CGPenalty -I/home/lars/Ipopt-3.12.7/Ipopt/src/contrib/LinearSolverLoader -I/home/lars/Ipopt-3.12.7/build/Ipopt/src/Common
+Requires: coinmumps coinlapack coinblas 
